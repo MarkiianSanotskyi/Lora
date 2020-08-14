@@ -1,0 +1,79 @@
+    /*
+    Flaticon icon font: Flaticon
+    Creation date: 01/03/2016 16:36
+    */
+
+    @font-face {
+  font-family: "Flaticon";
+  src: url("./Flaticon.eot");
+  src: url("./Flaticon.eot?#iefix") format("embedded-opentype"),
+       url("./Flaticon.woff") format("woff"),
+       url("./Flaticon.ttf") format("truetype"),
+       url("./Flaticon.svg#Flaticon") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+  @font-face {
+    font-family: "Flaticon";
+    src: url("./Flaticon.svg#Flaticon") format("svg");
+  }
+}
+
+    .fi:before{
+        display: inline-block;
+  font-family: "Flaticon";
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  line-height: 1;
+  text-decoration: inherit;
+  text-rendering: optimizeLegibility;
+  text-transform: none;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  font-smoothing: antialiased;
+    }
+
+    .flaticon-award18:before { content: "\f100"; }
+.flaticon-box148:before { content: "\f101"; }
+.flaticon-calendar:before { content: "\f102"; }
+.flaticon-christmas131:before { content: "\f103"; }
+.flaticon-coin58:before { content: "\f104"; }
+.flaticon-computer148:before { content: "\f105"; }
+.flaticon-cross92:before { content: "\f106"; }
+.flaticon-download41:before { content: "\f107"; }
+.flaticon-eye121:before { content: "\f108"; }
+.flaticon-facebook55:before { content: "\f109"; }
+.flaticon-fair1:before { content: "\f10a"; }
+.flaticon-feather1:before { content: "\f10b"; }
+.flaticon-halloween271:before { content: "\f10c"; }
+.flaticon-jewish:before { content: "\f10d"; }
+.flaticon-mail4:before { content: "\f10e"; }
+.flaticon-mail87:before { content: "\f10f"; }
+.flaticon-map54:before { content: "\f110"; }
+.flaticon-play87:before { content: "\f111"; }
+.flaticon-shake1:before { content: "\f112"; }
+.flaticon-wedding6:before { content: "\f113"; }
+    
+    $font-Flaticon-award18: "\f100";
+    $font-Flaticon-box148: "\f101";
+    $font-Flaticon-calendar: "\f102";
+    $font-Flaticon-christmas131: "\f103";
+    $font-Flaticon-coin58: "\f104";
+    $font-Flaticon-computer148: "\f105";
+    $font-Flaticon-cross92: "\f106";
+    $font-Flaticon-download41: "\f107";
+    $font-Flaticon-eye121: "\f108";
+    $font-Flaticon-facebook55: "\f109";
+    $font-Flaticon-fair1: "\f10a";
+    $font-Flaticon-feather1: "\f10b";
+    $font-Flaticon-halloween271: "\f10c";
+    $font-Flaticon-jewish: "\f10d";
+    $font-Flaticon-mail4: "\f10e";
+    $font-Flaticon-mail87: "\f10f";
+    $font-Flaticon-map54: "\f110";
+    $font-Flaticon-play87: "\f111";
+    $font-Flaticon-shake1: "\f112";
+    $font-Flaticon-wedding6: "\f113";
